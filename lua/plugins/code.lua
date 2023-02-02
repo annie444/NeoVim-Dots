@@ -333,7 +333,7 @@ return {
 
       local cmp = require("cmp")
       local dict = require("cmp_dictionary")
-      local luasnip = require("LuaSnip")
+      local luasnip = require("luasnip")
       local lspkind = require("lspkind")
       local select_opts = { behavior = cmp.SelectBehavior.Select }
 

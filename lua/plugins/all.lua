@@ -54,16 +54,11 @@ return {
     "kana/vim-textobj-user",
     lazy = false,
   },
-  {
-    "kana/vim-textobj-line",
-    lazy = false,
-  },
   -- add hydrogen mapping
   {
     "GCBallesteros/vim-textobj-hydrogen",
     dependencies = {
       "kana/vim-textobj-user",
-      "kana/vim-textobj-line",
     },
     lazy = false,
   },
